@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:sunmi_printer/sunmi_printer.dart';
-import 'package:sunmi_printer/sunmi_style.dart';
-import 'package:sunmi_printer/enums.dart';
-import 'package:sunmi_printer/column_maker.dart';
+import 'package:flutter_sunmi_printer_plus/flutter_sunmi_printer_plus.dart';
+import 'package:flutter_sunmi_printer_plus/sunmi_style.dart';
+import 'package:flutter_sunmi_printer_plus/enums.dart';
+import 'package:flutter_sunmi_printer_plus/column_maker.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,9 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sunmi_printer/sunmi_printer.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('sunmi_printer');
+  const MethodChannel channel = MethodChannel('flutter_sunmi_printer_plus');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -17,7 +16,4 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  // test('getPlatformVersion', () async {
-  //   expect(await SunmiPrinter.platformVersion, '42');
-  // });
 }

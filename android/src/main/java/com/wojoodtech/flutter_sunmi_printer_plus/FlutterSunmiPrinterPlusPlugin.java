@@ -1,4 +1,4 @@
-package com.wojoodtech.sunmi_printer;
+package com.wojoodtech.flutter_sunmi_printer_plus;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -8,15 +8,15 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import com.wojoodtech.sunmi_printer.utils.SunmiPrintHelper;
+import com.wojoodtech.flutter_sunmi_printer_plus.utils.SunmiPrintHelper;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 
-/** SunmiPrinterPlugin */
-public class SunmiPrinterPlugin implements FlutterPlugin, MethodCallHandler {
+/** FlutterSunmiPrinterPlusPlugin */
+public class FlutterSunmiPrinterPlusPlugin implements FlutterPlugin, MethodCallHandler {
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
@@ -26,7 +26,7 @@ public class SunmiPrinterPlugin implements FlutterPlugin, MethodCallHandler {
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "sunmi_printer");
+    channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_sunmi_printer_plus");
     context=flutterPluginBinding.getApplicationContext();
     channel.setMethodCallHandler(this);
 

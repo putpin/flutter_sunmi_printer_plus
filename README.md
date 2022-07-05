@@ -1,11 +1,11 @@
-# sunmi_printer
+# flutter_sunmi_printer_plus
 This is plugin inspired by [SunmiPrinterDemo](https://github.com/shangmisunmi/SunmiPrinterDemo)
 ## Platform Support
 This plugin works only on android
 
 ## Usage
 
-To use this plugin, add `sunmi_printer` as a dependency in your pubspec.yaml file
+To use this plugin, add `flutter_sunmi_printer_plus` as a dependency in your pubspec.yaml file
 
 ## What this package do
 - [x] Print text with style (font size,bold or not,alignment,..)
@@ -21,7 +21,7 @@ To use this plugin, add `sunmi_printer` as a dependency in your pubspec.yaml fil
 Import the library.
 
 ```dart
-import 'package:sunmi_printer/sunmi_printer.dart';
+import 'package:flutter_sunmi_printer_plus/flutter_sunmi_printer_plus.dart';
 ```
 
 Then invoke the static `initPrinter` method to initiate sunmi printer .

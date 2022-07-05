@@ -1,4 +1,4 @@
-group 'com.wojoodtech.sunmi_printer'
+group 'com.wojoodtech.flutter_sunmi_printer_plus'
 version '1.0'
 
 buildscript {

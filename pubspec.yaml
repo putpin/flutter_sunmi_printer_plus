@@ -1,7 +1,7 @@
-name: sunmi_printer
-description: A new Flutter project.
-version: 1.0.0
-homepage:
+name: flutter_sunmi_printer_plus
+description: This plugin for Sunmi devices where you can print text, image, table, barcode and QR code.
+version: 0.0.1
+homepage: https://github.com/WejdanCS/sunmi_printer
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
@@ -28,8 +28,8 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.wojoodtech.sunmi_printer
-        pluginClass: SunmiPrinterPlugin
+        package: com.wojoodtech.flutter_sunmi_printer_plus
+        pluginClass: FlutterSunmiPrinterPlusPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

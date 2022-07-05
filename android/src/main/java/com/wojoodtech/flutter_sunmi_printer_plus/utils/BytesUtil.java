@@ -1,4 +1,4 @@
-package com.wojoodtech.sunmi_printer.utils;
+package com.wojoodtech.flutter_sunmi_printer_plus.utils;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;

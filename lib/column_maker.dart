@@ -1,4 +1,4 @@
-import 'package:sunmi_printer/enums.dart';
+import 'enums.dart';
 
 class ColumnMaker{
   String text;

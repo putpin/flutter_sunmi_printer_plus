@@ -4,15 +4,15 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
-import 'package:sunmi_printer/column_maker.dart';
-import 'package:sunmi_printer/enums.dart';
-import 'package:sunmi_printer/sunmi_style.dart';
+import 'column_maker.dart';
+import 'enums.dart';
+import 'sunmi_style.dart';
 
 class SunmiPrinter {
 
 static bool isConnected=false;
 
-  static const MethodChannel _channel = MethodChannel('sunmi_printer');
+  static const MethodChannel _channel = MethodChannel('flutter_sunmi_printer_plus');
 
   static Future<bool?>initPrinter()async{
    bool?res;
