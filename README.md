@@ -1,5 +1,9 @@
+# DISCLAIMER: this plugin isn't maintained anymore.
+If you are a developer, you have the option to fork this repository and update it.
+
 # flutter_sunmi_printer_plus
 This is plugin inspired by [SunmiPrinterDemo](https://github.com/shangmisunmi/SunmiPrinterDemo)
+
 ## Platform Support
 This plugin works only on android
 
